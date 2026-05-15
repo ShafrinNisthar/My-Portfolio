@@ -727,6 +727,78 @@ nav { display: flex; gap: 4px; }
 
 /* RESPONSIVE */
 
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    width: 95%;
+    padding: 14px 18px;
+    top: 10px;
+    border-radius: 24px;
+
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-link {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+
+  .hire-btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+}
+
+
+/* EXTRA SMALL DEVICES */
+
+@media (max-width: 480px) {
+
+  .navbar {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .logo {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  nav {
+    gap: 8px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+    padding: 7px 12px;
+  }
+
+  .hire-btn {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+}
+
 /* MOBILE RESPONSIVENESS (ONE BY ONE) */
 @media (max-width: 992px) {
   .cert-grid {
